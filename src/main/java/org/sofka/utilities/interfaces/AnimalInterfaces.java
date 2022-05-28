@@ -6,4 +6,6 @@ public interface AnimalInterfaces {
     public void toEat();
 
     public void run(); 
+
+    public void animalInformation();
 }
