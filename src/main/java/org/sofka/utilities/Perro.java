@@ -5,16 +5,24 @@ import org.sofka.utilities.abstractions.AnimalAbstact;
 
 /**
  * Clase perro, la cual describe a un perro, con programación orientada a Objetos
- * Pe
+ * aplicando sobre escritura de metodos (Polimorfismo), la clase implemena 
+ * una interfaz la cual tiene especificad 4 metodos que podra usar un objero de la clase 
+ * Perro.
+ * @author Hernan Velasquez
+ * @version 27/05/2022/A
  */
 
 public class Perro extends AnimalAbstact implements AnimalInterfaces {
 
+    // Atributos de la clase
     private String name;
     private String rice;
     private String color;
     private Double age;
 
+    /**
+     * Contructor el cual iniializa los atributos del perro.
+     */
     public Perro(){
         name = "Firulis";
         rice = "husky";
@@ -22,6 +30,9 @@ public class Perro extends AnimalAbstact implements AnimalInterfaces {
         age = 2.0;
     }
 
+    /**
+     * Metodo encarado de ralizar las acciones del perro
+     */
     @Override
     public void slepp() {
         logger.info(this.name + "Esta durmiendo");
@@ -39,6 +50,9 @@ public class Perro extends AnimalAbstact implements AnimalInterfaces {
         
     }
 
+    /**
+     * Metodo de la clase encargado de realzar la informacion de la clase Perro
+     */
     @Override
     public void animalInformation() {
         logger.info(this.name + " Tiene " + age.toString() + " es de color " + color + " y es de rasa " + rice);

@@ -1,5 +1,7 @@
 package org.sofka.utilities.interfaces;
 
+
+
 public interface AnimalInterfaces {
     public void slepp();
 
