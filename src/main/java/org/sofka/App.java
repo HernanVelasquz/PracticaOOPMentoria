@@ -10,7 +10,7 @@ import org.sofka.utilities.Gato;
 public class App 
 {
     static Perro dog = new Perro();
-    static Gato gat = new Gato();
+    static Gato cat = new Gato();
     public static void main( String[] args )
     {
         init();
@@ -21,5 +21,11 @@ public class App
        dog.slepp();
        dog.toEat();
        dog.run();
+
+       cat.animalInformation();
+       cat.slepp();
+       cat.toEat();
+       cat.run();
+       cat.rontoneo();
     }
 }

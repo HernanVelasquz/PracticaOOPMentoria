@@ -16,18 +16,18 @@ public class Gato extends AnimalAbstact implements AnimalInterfaces {
      */
     @Override
     public void slepp() {
-        logger.info(this.name + "Esta durmiendo");
+        logger.info(this.name + " Esta durmiendo");
     }
 
     @Override
     public void toEat() {
-        logger.info(this.name + "Esta comiendo");
+        logger.info(this.name + " Esta comiendo");
         
     }
 
     @Override
     public void run() {
-        logger.info(this.name + "Esta corriendo");
+        logger.info(this.name + " Esta corriendo");
         
     }
 
