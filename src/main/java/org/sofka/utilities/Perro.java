@@ -14,12 +14,6 @@ import org.sofka.utilities.abstractions.AnimalAbstact;
 
 public class Perro extends AnimalAbstact implements AnimalInterfaces {
 
-    // Atributos de la clase
-    private String name;
-    private String rice;
-    private String color;
-    private Double age;
-
     /**
      * Contructor el cual iniializa los atributos del perro.
      */
@@ -51,7 +45,7 @@ public class Perro extends AnimalAbstact implements AnimalInterfaces {
     }
 
     /**
-     * Metodo de la clase encargado de realzar la informacion de la clase Perro
+     * Metodo de la clase encargado de realzar la informacion de la clase Gato
      */
     @Override
     public void animalInformation() {
