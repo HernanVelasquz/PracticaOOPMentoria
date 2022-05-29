@@ -11,8 +11,8 @@ public class Gato extends AnimalAbstact implements AnimalInterfaces {
         age = 1.0;
     }
 
-        /**
-     * Metodo encarado de ralizar las acciones del perro
+    /**
+     * Metodo encarado de ralizar las acciones de la clase Gato
      */
     @Override
     public void slepp() {
